@@ -1,3 +1,49 @@
+.kerdes div{
+  background-color: rgb(69, 16, 16);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.kategoriaDiv {
+  margin-bottom: 20px;
+}
+
+.tesztFeladat {
+  padding: 5px;
+  border: 1px solid rgb(186, 184, 184);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.valasz {
+  padding: 5px;
+}
+
+.valaszDoboz1, .valaszDoboz2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.valasz1, .valasz2, .valasz3, .valasz4 {
+  border: 1px solid black;
+  width: 100%;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 5px;
+  text-align: center;
+  background-color: #d6dfed;
+}
+
+@media only screen and (max-width: 450px) {
+  .valaszDoboz1, .valaszDoboz2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+  }
+}
+
 /*
 ! tailwindcss v3.0.24 | MIT License | https://tailwindcss.com
 *//*
